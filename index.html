@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project Portfolio</title>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/ba628fc69f.js" crossorigin="anonymous"></script>
+
+    <header>
+        <nav>
+            <h2 class="logo">Tech.<span>Code</span></h2>
+            <ul>
+                <li><a href="#1">O mě</a></li>
+                <li><a href="#">Služby</a></li>
+                <li><a href="#">Dovednosti</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        
+            <a href="#" class="btn">Kontakt</a>        
+            <img onclick="myFunction()" id="burgerButton" src="img/hamburgerMenu.png" alt="">       
+        </nav>
+
+        <div class="headerMainText">
+            <h2>Vítejte na mém Webu</h2>
+            <br>
+            <h1>Jmenuji se Josef Staněk</h1>
+            <br>
+            <h2>A jsem <span>Front-End Kodér</span></h2>
+        </div>
+    </header>
+    
+    <main>
+
+        <section class="aboutme">
+            <div class="grid-container">
+                <div class="grid-item grid-item-1">
+                    <h2>Něco o <span>mě</span></h2>
+                </div>
+                <div class="grid-item grid-item-2">
+                    <p>
+                        Jsem začínající front-end kodér hledající spolupráci pro zlepšení
+                        svých aktuálních dovedností. Hledám firmu, která by mi nabídla 
+                        spolupráci na projektech a pomocnou ruku. Vystudoval jsem 
+                        informační technologii. Aktuálně pracuji jako IT technik 
+                        zabezpečovacích systémů. Mám zkušenosti v oblastech testování
+                        HW, správa zabezpečovacích systémů, vzdálená správa a podpora 
+                        firemních systémů. Také mám pokročilé znalosti elektrotechniky.
+                        Ve svém volném čase rád běhám a sleduji trendy v oblasti web 
+                        technologií. V budoucnu bych se rád věnoval vývoji web 
+                        aplikací.
+                    </p> 
+                </div>
+                
+                <div class="grid-item grid-item-3">
+                        <img src="img/portret.jpg" alt="">
+                </div>
+                
+                <div class="grid-item grid-item-4">
+                    <p><span>Jméno:</span> Josef Staněk</p>
+                    <br>
+                    <p><span>Věk:</span> 27</p>
+                    <br>
+                    <p><span>Město:</span> Praha</p>
+                    <br>
+                    <p><span>Email:</span> stanek.josef389@gmail.com</p>
+                    <button class="btn-CV">Stáhni CV</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <h2>Nabídka <span>služeb</span></h2>
+            <div class="service_container">
+                
+                <div class="service_box">
+                    <h3>Konzultace</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, animi alias tempore fugiat consequuntur sunt facere nemo fuga est expedita dignissimos dolores repudiandae eos maxime esse? Ea, alias assumenda. Quod.</p> 
+                </div>
+    
+                <div class="service_box">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, animi alias tempore fugiat consequuntur sunt facere nemo fuga est expedita dignissimos dolores repudiandae eos maxime esse? Ea, alias assumenda. Quod.</p>
+                </div>
+    
+                <div class="service_box">
+                    <h3>Web App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, animi alias tempore fugiat consequuntur sunt facere nemo fuga est expedita dignissimos dolores repudiandae eos maxime esse? Ea, alias assumenda. Quod.</p>
+                </div>
+            </div>
+            
+        </section>
+        
+        <section class="skills">
+            <h2> Moje <span>schopnosti</span></h2>
+            <li><h4>HTML</h4><span class="bar"><span class="html"></span></span></li>
+            <li><h4>CSS</h4><span class="bar"><span class="css"></span></span></li>
+            <li><h4>Javascript</h4><span class="bar"><span class="javascript"></span></span></li>
+            <li><h4>AdobeXD</h4><span class="bar"><span class="adobexd"></span></span></li>
+        </section>
+
+        <section class="contact">
+            <form action="" class="form">
+                <h2>Kontakt</h2>
+
+            <input type="text" placeholder="Jméno a Příjmení">
+            <input type="email" placeholder="Email">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Odeslat">
+            </form>
+            
+        </section>
+    </main>
+
+    <footer class="footer">
+        
+        <div class="inner-footer">
+            <div class="social-links"></div>
+            <ul>
+                <li class="social-items"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="social-items"><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                <li class="social-items"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>        
+
+        <div class="outer-footer">
+            Copyright &copy; Tech.Code. Všechna práva vyhrazena
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
